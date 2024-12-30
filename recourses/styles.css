@@ -1,0 +1,147 @@
+ 
+
+h1 {
+    font-family: "Playfair Display";
+    font-size: 70px;
+    text-align: center;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Inter;
+    text-align: center;
+    font-weight: 300px;
+   
+}
+
+/* colors  */
+
+.colors-containers {
+    display: block;
+    width: 100%;
+}
+
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+
+.texto-colores {
+    display: block;
+    font-family: Inter;
+}
+div {
+    display: block;
+    
+}
+
+.modern-black {
+    background-color: black;
+    color: white;
+}
+
+.modern-gray {
+    background-color: #0E0E0E;
+    color: white;
+}
+
+.modern-white {
+    background-color: white; 
+    color: #0E0E0E;
+}
+
+
+ /* fonts   */
+
+.abril-heading {
+    font-family: "Abril Fatface";
+    font-size: 30px;
+}
+
+.abril-fatface {
+    font-family: "Abril Fatface";
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 22px;
+}   
+
+.normal {
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 22px;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+/* inter tight */
+
+.inter-heading {
+font-family: "inter-tight";
+font-size: 30px;
+}
+
+.inter-tight {
+    font-family: "inter-tight";
+    
+}
+
+
+/* Playfair Display     */
+.playfair-display {
+    font-family: "Playfair Display";
+}
+
+.playfair-heading {
+    font-family: "Playfair Display";
+    font-size: 30px;
+}
+
+
+/*Inter */
+
+.inter-original {
+    font-family: Inter;
+}
+
+.inter-heading {
+    font-family: Inter;
+    font-size: 30px;
+}
+
+ul {
+    
+    text-align: center;
+    list-style-position: inside;
+    padding: 0;
+}
+
+li {
+    display: inline block;
+    text-align: center;
+    font-size: 21px;
+    
+}
+
+.paragraph-text {
+    text-align: center;
+    font-size: 25.36px;
+    font-weight: 300px;
+}
