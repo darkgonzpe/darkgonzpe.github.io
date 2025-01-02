@@ -1,0 +1,225 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-size: 22px;
+    color: seashell;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+
+/* nav bar */
+
+header {
+
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 69;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    background-color: black;
+    
+    
+}
+
+
+.logo {
+    height: 50px ;
+    padding: 10px;
+}
+
+
+.logo-nav {
+    display: inline-flex;
+    
+}
+
+
+.nav-bar a {
+    display: inline-flex;
+    margin: 11px;
+    color: seashell;
+    
+}
+
+.nav-bar {
+    margin: 1% ;
+    display: flex;
+    
+    
+}
+
+
+
+/* background image */
+
+
+ #mission {
+    background-image: url(./img-mission-background.jpg);
+    padding-top: 70px;
+    height: 700px;
+    width: 1200;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+ }
+
+/* background text */
+
+
+
+
+.main-page {
+padding-top: 69px;
+opacity: 0.9;
+
+margin: auto;
+}
+
+
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 10px;
+    
+}
+
+.main-container {
+    display: flex;
+     justify-content: center;
+    flex-wrap: wrap;
+}
+
+    
+
+
+#mission .background-content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+   
+    
+}
+
+
+
+/* Tea of the month */
+
+.featured-tea {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 70px;
+    max-width: 1000px;
+    margin:  auto;
+    padding-bottom: 70px;
+}
+#heading-tea{
+    padding-top: 70px;
+}
+ .featured-tea p {
+    font-weight: bold;
+ }
+
+#berry-blitz {
+ height: 200px;
+ width: 300px;
+}
+
+#spiced {
+ height: 200px;
+ width: 300px;
+}
+
+#donut {
+height: 200px;
+ width: 300px;
+}
+
+#ave {
+height: 200px;
+width: 300px;   
+}
+
+#bedford {
+height: 200px;
+width: 300px;      
+}
+
+.tea {
+    padding: 5px;
+}
+
+.tea img {
+    margin: 10px;
+}
+
+
+/*  Locations */
+
+#location-heading  {
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+   
+}
+
+.location {
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px 20px;
+    background-color: black;
+    
+    
+}
+
+.location p {
+    padding: 0px 2px 15px;
+}
+
+#locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1cxlr79*_gcl_aw*R0NMLjE3MzQ3NDc4ODcuQ2p3S0NBaUF5SlM3QmhCaUVpd0F5Uzl1TmRGVW1RQXJTSVhpZ21uajRseE1HSGZFZ19JRGd1bkFVS2tndUZodDVrV0ZHcGozaWl1MER4b0MxcmNRQXZEX0J3RQ..*_gcl_au*MTgxODY4MDEzNy4xNzM0MTk0MTYx*_ga*NDc4NTM1MTI1LjE3MzQ3NDc4ODA.*_ga_3LRZM6TM9L*MTczNTgyOTg4NS4xMDUuMS4xNzM1ODMxNTkwLjYwLjAuMA..");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    
+    padding-top: 70px;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#locations .flex-container {
+    margin: auto;
+    
+    
+}
+
+
+/* contact page */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.contact .contact-left {
+    align-self: flex-start;
+    padding-left: 20px;
+}
+
+ 
